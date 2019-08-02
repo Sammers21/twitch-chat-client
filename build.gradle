@@ -1,0 +1,17 @@
+
+plugins {
+    id 'java-library'
+}
+
+repositories {
+    jcenter()
+    mavenCentral()
+}
+
+dependencies {
+
+    compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.26'
+    compile group: 'io.netty', name: 'netty-handler', version: '4.1.38.Final'
+
+    testCompile 'junit:junit:4.12'
+}
