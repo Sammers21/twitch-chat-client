@@ -1,6 +1,6 @@
 # twitch-chat-client
 
-This library can be used for consuming messages from a twitch chat. 
+This library can be used for reading messages from a twitch chat. 
 
 Usage:
 
